@@ -2,7 +2,7 @@ name: Bubble--Make Preview App
 on: pull_request
 
 env:
-  NODE_VERSION: 16.15.1
+  NODE_VERSION: 18.17.0
   AWS_ACCESS_KEY_ID: ${{ secrets.BUBBLE_AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.BUBBLE_AWS_SECRET_ACCESS_KEY }}
   AWS_REGION: ${{ secrets.AWS_REGION || 'us-east-1' }}
